@@ -17,7 +17,7 @@ const RelatedArticle = () => {
           Related Articles
         </h1>
 
-        <div className="mt-6 grid grid-cols-1 gap-6 sm:mt-8 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {/* <div className="mt-6 grid grid-cols-1 gap-6 sm:mt-8 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
           {blogPosts.slice(0, 3).map((post, index) => (
             <BlogCard
               key={index}
@@ -33,7 +33,7 @@ const RelatedArticle = () => {
               }}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );
